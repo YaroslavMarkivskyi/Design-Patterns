@@ -11,3 +11,6 @@ class Transport(ABC):
     @abstractmethod
     def delivery(self):
         pass
+
+    def __str__(self):
+        return self._path
