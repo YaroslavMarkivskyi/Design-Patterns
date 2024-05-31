@@ -75,7 +75,7 @@ def create_platform(main_window: MainWindow,
                     settings_window: SettingsWindow,
                     help_window: HelpWindow,
                     ):
-    """Method that has business logic to create linux ui."""
+    """Method that has business logic to create ui."""
     print(":::::UI main window::::::::::::")
     use_main_window(main_window)
     print("::::UI settings window::::::::")
